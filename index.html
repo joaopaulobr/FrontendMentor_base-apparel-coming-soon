@@ -23,8 +23,14 @@
         <p class="text">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
         
         <div class="input-container">
-          <input class="custom-input" placeholder="Email Address" />
-          <div class="custom-button"><img src="./images/icon-arrow.svg" alt="Submit arrow icon"></div>
+          <input id="custom-input" class="custom-input" placeholder="Email Address" />
+          <div id="custom-buttom" class="custom-button" onClick="submitEmail()">
+            <img src="./images/icon-arrow.svg" alt="Submit arrow icon">
+          </div>
+        </div>
+
+        <div id="error-message" class="error-message">
+          <span>Please provide a valid email</span>
         </div>
       </div>
     </div>
@@ -40,5 +46,7 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer> -->
+
+  <script src="scripts.js"></script>
 </body>
 </html>
